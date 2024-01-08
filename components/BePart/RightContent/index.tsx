@@ -22,7 +22,7 @@ const RightContent = () => {
         </p>
         <Link
           href="/"
-          className="mt-4 px-4 py-3 rounded-lg bg-gray-900 font-bold tracking-tight !leading-none hover:bg-white hover:text-black transition-colors duration-300"
+          className="mt-4 px-4 py-3 rounded-lg bg-gray-900 font-bold tracking-tight !leading-none transition-colors duration-300 hover:bg-white hover:text-black"
         >
           Contact us
         </Link>

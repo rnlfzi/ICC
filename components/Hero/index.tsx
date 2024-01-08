@@ -57,7 +57,7 @@ const Hero = () => {
               </p>
               <div className="absolute z-30 right-0 bottom-[37%] hover:scale-[1.1] transition-transform duration-300">
                 <Image
-                  className="pointer-events-none select-none animate-[slow-bounce_10s_linear_infinite] drop-shadow-xl"
+                  className="pointer-events-none select-none drop-shadow-xl"
                   src="https://indonesiacomiccon.com/_nuxt/img/captain-icc-2023-pose-3.83d6c0d.svg"
                   alt="maskot"
                   width={144}
@@ -91,7 +91,7 @@ const Hero = () => {
                 </span>
               </div>
               <Image
-                alt="captain pose"
+                alt="maskot"
                 width={100}
                 height={100}
                 className="absolute top-0 rotate-[-30deg] right-0 translate-x-[30%] w-28 lg:w-32 2xl:w-36 3xl:w-40 pointer-events-none select-none group-hover:scale-[1.2] transition-transform duration-300"
@@ -124,7 +124,7 @@ const Hero = () => {
                 </p>
               </div>
               <Image
-                alt="captain pose"
+                alt="maskot"
                 width={100}
                 height={100}
                 className="absolute z-0 bottom-0 translate-y-[20%] scale-x-[-1] 2xl:translate-y-[30%] left-0 -translate-x-[30%] w-20 lg:w-24 2xl:w-32 rotate-12 pointer-events-none select-none group-hover:scale-y-110 group-hover:scale-x-[-1] group-hover:rotate-[24deg] transition-transform duration-300"

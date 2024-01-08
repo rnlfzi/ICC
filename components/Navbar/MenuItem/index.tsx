@@ -10,6 +10,7 @@ const MenuItem = ({ label, href, active, hasChild = false }: MenuItemProps) => {
   return (
     <Link
       href={href}
+      passHref
       className="hover:bg-custom-black-secondary px-6 py-5 rounded-full text-sm relative"
     >
       <p

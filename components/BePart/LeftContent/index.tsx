@@ -7,9 +7,9 @@ const barlowCondensed = Barlow_Condensed({ subsets: ["latin"], weight: "900" });
 
 const LeftContent = () => {
   return (
-    <div className="rounded-3xl bg-gradient-to-b from-gray-900 flex flex-col items-center text-center py-16 lg:py-24 px-6 sm:px-10 relative isolate">
-      <div className="absolute top-0 -translate-y-1/2 inset-x-0 w-full flex items-center justify-center">
-        <div className="px-3 py-3 bg-gradient-to-l from-orange-500 to-rose-700 font-bold text-white uppercase rounded-full text-xs sm:text-sm flex items-center gap-x-1">
+    <div className="rounded-3xl bg-gradient-to-b py-16 lg:py-24 px-6 sm:px-10 from-gray-900 flex flex-col items-center text-center relative isolate">
+      <div className="absolute top-0 -translate-y-1/2 inset-x-0  flex items-center justify-center w-full">
+        <div className="px-3 py-3 bg-gradient-to-l from-orange-500 to-red-700 font-bold text-white uppercase rounded-full text-xs sm:text-sm flex items-center gap-x-1">
           <p className="!leading-none flex-shrink-0">Tenant Application</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const LeftContent = () => {
         <h3
           className={
             barlowCondensed.className +
-            " uppercase font-heading text-5xl sm:text-6xl xl:text-7xl !leading-none -mt-10 drop-shadow-md"
+            " uppercase !leading-none -mt-10 drop-shadow-md font-heading text-5xl sm:text-6xl xl:text-7xl"
           }
         >
           Showcase Your Brand
@@ -33,16 +33,16 @@ const LeftContent = () => {
           Be part of something big by becoming a tenant at Indonesia Comic Con,
           one of the largest pop culture event in Indonesia.
         </p>
-        <div className="available-space-progress w-full max-w-sm mx-auto mt-8">
+        <div className="w-full max-w-sm mx-auto mt-8">
           <div className="w-full h-2 bg-gray-800 rounded-full overflow-hidden">
-            <div className="progress-bar w-[100%] h-full rounded-full bg-gradient-to-r from-green-500 to-green-600" />
+            <div className="w-[100%] bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full" />
           </div>
           <p className="block text-gray-400 text-xs sm:text-sm tracking-tight mt-3">
             100% space has been occupied.
           </p>
         </div>
         <Link
-          className="px-8 py-5 rounded-xl bg-white text-black font-bold tracking-tight mt-10 hover:bg-accent-yellow-base transition-colors duration-300"
+          className="px-8 py-5 rounded-xl bg-white text-black font-bold tracking-tight mt-10 hover:bg-yellow-500 transition-colors duration-300"
           href="/"
         >
           Book your space

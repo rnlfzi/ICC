@@ -44,7 +44,7 @@ const CTA = () => {
         <div className="mt-8 flex items-center gap-x-4">
           <Link
             href="/"
-            className="magnet-button rounded-full flex items-center gap-x-2 text-base sm:text-lg tracking-tight px-8 py-6 font-semibold bg-white text-black"
+            className="rounded-full flex items-center gap-x-2 text-base sm:text-lg tracking-tight px-8 py-6 font-semibold bg-white text-black"
           >
             Get your ticket
             <HiArrowUpRight size={15} />
@@ -59,7 +59,7 @@ const CTA = () => {
             className="w-32"
           />
           <Logo />
-          <span className="divider-vertical w-0.5 h-20 bg-gradient-to-b from-transparent to-yellow-500 my-8" />
+          <span className="w-0.5 h-20 bg-gradient-to-b from-transparent to-yellow-500 my-8" />
           <p
             className={
               plusJakartaSans.className +
