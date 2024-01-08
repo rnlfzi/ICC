@@ -7,6 +7,7 @@ import MeetnGreet from "@/components/MeetnGreet";
 import Navbar from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
 import Rundown from "@/components/Rundown";
+import Spinner from "@/components/Spinner";
 import Sponsors from "@/components/Sponsors";
 import Tenants from "@/components/Tenants";
 
@@ -24,6 +25,7 @@ export default function Home() {
         <div className="bg-gradient-to-b from-custom-black-primary/90 to-custom-black-primary h-fit">
           <Navbar />
           <Hero />
+          <Spinner />
         </div>
       </div>
       <GuestStars />

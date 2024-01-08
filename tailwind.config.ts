@@ -14,7 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        "spin-slow": "spin 3s linear infinite",
+        "spin-slow": "spin 10s linear infinite",
+        "spin-slow-reverse": "spin 10s linear infinite reverse",
       },
       colors: {
         custom: {

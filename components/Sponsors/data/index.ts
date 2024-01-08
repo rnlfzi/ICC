@@ -120,3 +120,42 @@ export const brandPartners = [
     src: "https://indonesiacomiccon.com/_nuxt/img/lokapala.9efd417.webp",
   },
 ];
+
+export const mediaPartners = [
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/08%20liputan6.cf5fd3a.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/07%20detikhot.af6f7cc.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/06%20metrotv.6ba5379.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/05%20medcom.86ee88b.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/04%20media-indonesia.fb6f792.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/03%20tempo.84d49a2.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/02%20rcti.5a0b225.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/13%20cewekbanget.41c5b47.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/12%20sindonews.a0e7e97.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/11%20inews.1034269.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/10%20idn-times.09381e5.webp",
+  },
+  {
+    src: "https://indonesiacomiccon.com/_nuxt/img/09%20kapanlagi.ef207ae.webp",
+  },
+];

@@ -4,7 +4,7 @@ import { SponsorCardProps } from "./index.type";
 const SponsorCard = ({ label, data, h }: SponsorCardProps) => {
   return (
     <div className="flex flex-col items-center text-center mt-3 gap-8 w-full">
-      <h4 className="">{label}</h4>
+      <h4 className=" font-light">{label}</h4>
       <div className="flex flex-wrap justify-center items-center gap-8 gap-x-3 sm:gap-x-8 mt-2">
         {data.map((item, index) => (
           <div key={index} className={`${h}`}>

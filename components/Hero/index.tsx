@@ -31,7 +31,7 @@ const Hero = () => {
   return (
     <>
       <div>
-        <div className="grid grid-cols-3 items-center pt-28 px-5 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 items-center pt-28 px-5 gap-4">
           <div className="relative isolate row-span-2 h-full">
             <div className="flex flex-col justify-end items-start h-full py-20">
               <span

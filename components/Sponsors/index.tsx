@@ -1,3 +1,4 @@
+import MyMarquee from "../Marquee";
 import SponsorCard from "./SponsorCard";
 import {
   brandPartners,
@@ -7,6 +8,7 @@ import {
   forwardPartners,
   hotelPartners,
   internetPartners,
+  mediaPartners,
   organizedBy,
   ticketPartners,
   transportationPartners,
@@ -66,6 +68,10 @@ const Sponsors = () => {
           />
         </div>
         <SponsorCard label="Brand Partnership" data={brandPartners} h="h-20" />
+        <div className="flex flex-col items-center text-center mt-16 w-full">
+          <h4 className="font-light">Media Partners</h4>
+          <MyMarquee hasText={false} data={mediaPartners} />
+        </div>
       </div>
     </div>
   );

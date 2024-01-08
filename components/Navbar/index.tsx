@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="flex fixed z-50 w-full h-24 justify-between items-center bg-black/80 backdrop-blur text-white px-5">
       <Logo />
-      <div className="flex gap-1">
+      <div className="hidden sm:flex gap-1">
         <MenuItem label="Home" href="/" active />
         <MenuItem label="Guests" href="/" />
         <MenuItem label="Rundown" href="/" />

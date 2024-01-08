@@ -1,6 +1,6 @@
 interface DataProps {
   src: string;
-  title: string;
+  title?: string;
 }
 
 export interface MarqueeProps {
