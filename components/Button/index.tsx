@@ -20,15 +20,6 @@ const MyButton = ({ label, onClick, variant = "contained" }: ButtonProps) => {
           <p className="text-sm font-semibold">{label}</p>
         </button>
       );
-    case "text":
-      return (
-        <button
-          className="bg-custom-primary text-custom-white p-4 rounded-md"
-          onClick={onClick}
-        >
-          <p className="text-sm font-semibold">{label}</p>
-        </button>
-      );
     default:
       return null;
   }

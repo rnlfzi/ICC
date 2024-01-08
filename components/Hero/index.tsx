@@ -3,13 +3,14 @@ import Link from "next/link";
 
 import MyButton from "../Button";
 
-import { GoArrowRight, GoArrowDownRight } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
 
 import localFont from "next/font/local";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Barlow_Condensed } from "next/font/google";
 
 import { images, links } from "./data";
+import CardLink from "../CardLink";
 
 const akiraFont = localFont({
   src: "../../font/Akira.otf",
@@ -133,24 +134,13 @@ const Hero = () => {
           </div>
           <div className="grid grid-cols-1 gap-3 lg:order-last">
             {links.map((item, index) => (
-              <div
+              <CardLink
                 key={index}
-                className={`p-px rounded-2xl bg-gradient-to-r ${item.color}`}
-              >
-                <div className="bg-gradient-to-r from-gray-900 to-gray-950 flex justify-between items-center rounded-2xl h-full p-5 gap-7">
-                  <div className="text-white">
-                    <h1 className={barlowCondensed.className + " text-3xl"}>
-                      {item.header}
-                    </h1>
-                    <p className="text-sm line-clamp-2 mt-2">{item.sub}</p>
-                  </div>
-                  <Link href={"#"}>
-                    <div className="bg-white h-20 w-20 hover:scale-105 transition-all text-black flex items-center justify-center rounded-full">
-                      <GoArrowDownRight size={25} />
-                    </div>
-                  </Link>
-                </div>
-              </div>
+                header={item.header}
+                sub={item.sub}
+                color={item.color}
+                p="p-5"
+              />
             ))}
           </div>
           <div className="flex flex-col items-center relative isolate">
