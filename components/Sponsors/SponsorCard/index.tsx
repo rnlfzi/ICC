@@ -11,7 +11,7 @@ const SponsorCard = ({ label, data, h }: SponsorCardProps) => {
             <Image
               key={index}
               src={item.src}
-              width={100}
+              width={200}
               height={100}
               alt={`images-${index}`}
               className="h-full w-full object-contain"

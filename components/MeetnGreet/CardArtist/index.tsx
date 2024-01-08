@@ -17,7 +17,7 @@ const CardArtist = ({ src, title, attend }: CardArtistProps) => {
           height={500}
           className="aspect-[4/5] w-full"
         />
-        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black" />
+        <div className="absolute inset-x-0 bottom-16 h-1/2 bg-gradient-to-t from-black" />
       </div>
       <div className="relative z-20 flex flex-col items-center text-center -mt-10 text-white">
         <h1

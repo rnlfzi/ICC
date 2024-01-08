@@ -57,7 +57,6 @@ const Portfolio = () => {
                   alt={item.title}
                   width={100}
                   height={100}
-                  layout="responsive"
                   className="w-full h-full object-contain"
                 />
               </div>
