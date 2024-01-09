@@ -1,3 +1,4 @@
+import Banners from "@/components/Banners";
 import BePart from "@/components/BePart";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -31,6 +32,7 @@ export default function Home() {
       <GuestStars />
       <Rundown />
       <Tenants />
+      <Banners />
       <Portfolio />
       <MeetnGreet />
       <BePart />
