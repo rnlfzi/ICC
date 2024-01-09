@@ -37,6 +37,9 @@ const Footer = () => {
       <p className="text-xs text-white/50 pb-10">
         Copyright © 2024 Indonesia Comic Con. All rights reserved.
       </p>
+      <p className="text-xs text-white/50 pb-10">
+        by Reynald 
+      </p>
     </div>
   );
 };

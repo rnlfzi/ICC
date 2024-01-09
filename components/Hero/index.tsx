@@ -11,6 +11,7 @@ import { Barlow_Condensed } from "next/font/google";
 
 import { images, links } from "./data";
 import CardLink from "../CardLink";
+import { TextSwap } from "../TextSwap";
 
 const akiraFont = localFont({
   src: "../../font/Akira.otf",
@@ -113,7 +114,11 @@ const Hero = () => {
                 >
                   5 Pop Culture Pillars
                 </span>
-                <p
+                <TextSwap
+                  strings={["LIFESTYLE", "COMICS", "TOYS", "MOVIE", "GAMES"]}
+                  animationType="slideUp"
+                />
+                {/* <p
                   style={{ WebkitTextStroke: "1px black" }}
                   className={
                     akiraFont.className +
@@ -121,7 +126,7 @@ const Hero = () => {
                   }
                 >
                   TOYS
-                </p>
+                </p> */}
               </div>
               <Image
                 alt="maskot"
